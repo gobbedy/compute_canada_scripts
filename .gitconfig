@@ -1,0 +1,28 @@
+[user]
+	name = Guillaume Perrault-Archambault
+	email = gperr050@uottawa.ca
+[code]
+	editor = nedit
+[merge]
+	tool = tkdiff
+[diff]
+	tool = tkdiff
+[core]
+	editor = nedit
+	excludesfile = ~/.gitignore
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	lsh = log --graph --pretty=format:\"%C(yellow)%h %Creset- %ad%Creset: %C(yellow)%s%Creset\" --date=format:\"%Y-%m-%d, %T\"
+	commits = show --name-only --pretty=format:\"%h\" --oneline
+	dif = difftool
+	ls = show --name-only --pretty=format:\"%h\" --oneline
+[difftool]
+	prompt = false
+[core "difftool"]
+	prompt = false
+[core "difftoasdol"]
+	prompt = false
